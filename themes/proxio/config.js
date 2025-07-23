@@ -3,12 +3,12 @@
  */
 const CONFIG = {
     PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
-    PROXIO_WELCOME_TEXT: '欢迎来到此网站，点击任意位置进入', // 欢迎文字，留空则不启用
+    PROXIO_WELCOME_TEXT: 'Welcoming!!，点击任意位置进入', // 欢迎文字，留空则不启用
 
     // 英雄区块导航
     PROXIO_HERO_ENABLE: true, // 开启英雄区
-    PROXIO_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-    PROXIO_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+    PROXIO_HERO_TITLE_1: '欢迎来到Xunvor的知识库', // 英雄区文字
+    PROXIO_HERO_TITLE_2: '', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
     PROXIO_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
@@ -192,10 +192,7 @@ const CONFIG = {
         {
             name: '友情链接',
             menus: [
-                {
-                    title: 'Tangly的学习笔记',
-                    href: 'https://blog.tangly1024.com'
-                },
+              
                 {
                     title: 'NotionNext',
                     href: 'https://www.tangly1024.com'
@@ -205,7 +202,7 @@ const CONFIG = {
         {
             name: '开发者',
             menus: [
-                { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
+                { title: 'Github', href: 'https://github.com/xunver/NotionNext' },
                 {
                     title: '开发帮助',
                     href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
