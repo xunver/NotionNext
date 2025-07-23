@@ -10,7 +10,7 @@ const CONFIG = {
     PROXIO_HERO_TITLE_1: '欢迎来到Xunvor的知识库', // 英雄区文字
     PROXIO_HERO_TITLE_2: '', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-    PROXIO_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
+    PROXIO_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
         '', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
@@ -203,22 +203,6 @@ const CONFIG = {
             name: '开发者',
             menus: [
                 { title: 'Github', href: 'https://github.com/xunver/NotionNext' },
-                {
-                    title: '开发帮助',
-                    href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
-                },
-                {
-                    title: '功能反馈',
-                    href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
-                },
-                {
-                    title: '技术讨论',
-                    href: 'https://github.com/tangly1024/NotionNext/discussions'
-                },
-                {
-                    title: '关于作者',
-                    href: 'https://blog.tangly1024.com/about'
-                }
             ]
         }],
 
