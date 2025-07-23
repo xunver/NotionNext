@@ -38,7 +38,7 @@ const CONFIG = {
     PROXIO_ANNOUNCEMENT_ENABLE: true, //公告文字区块
 
     // 特性区块
-    PROXIO_FEATURE_ENABLE: true, // 特性区块开关
+    PROXIO_FEATURE_ENABLE: false, // 特性区块开关
     PROXIO_FEATURE_TITLE: '为什么选我',
     PROXIO_FEATURE_TEXT_1: '我能让您的项目焕发光彩',
     PROXIO_FEATURE_TEXT_2:
@@ -64,7 +64,7 @@ const CONFIG = {
     PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
 
     // 首页生涯区块
-    PROXIO_CAREER_ENABLE: true, // 区块开关
+    PROXIO_CAREER_ENABLE: false, // 区块开关
     PROXIO_CAREER_TITLE: '生涯',
     PROXIO_CAREER_TEXT:
         '以下是我的职业生涯',
@@ -157,7 +157,7 @@ const CONFIG = {
     ],
 
     // 关于作者区块
-    PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
+    PROXIO_ABOUT_ENABLE: false, // 关于作者区块区块开关
     PROXIO_ABOUT_TITLE: '关于作者',
     PROXIO_ABOUT_TEXT_1: 'I am an Architect Turned Into a Product Designer',
     PROXIO_ABOUT_TEXT_2:
@@ -176,7 +176,7 @@ const CONFIG = {
     PROXIO_ABOUT_BUTTON_TEXT: '关于我',
 
     // 横向滚动文字
-    PROXIO_BRANDS_ENABLE: true, // 滚动文字
+    PROXIO_BRANDS_ENABLE: false, // 滚动文字
     PROXIO_BRANDS: [
         'Web Design',
         'Logo Design',
@@ -242,7 +242,7 @@ const CONFIG = {
     PROXIO_404_BACK: '回到主页',
 
     // 页面底部的行动呼吁模块
-    PROXIO_CTA_ENABLE: true,
+    PROXIO_CTA_ENABLE: false,
     PROXIO_CTA_TITLE: '与我建立联系',
     PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
     PROXIO_CTA_DESCRIPTION:
